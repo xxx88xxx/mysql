@@ -1,3 +1,4 @@
+-- Task: Display students' first and last names, course names, and their last attendance date for each course.
 SELECT students.first_name, students.last_name,
        courses.course_name, enrollments.last_attendance_date
 FROM students
