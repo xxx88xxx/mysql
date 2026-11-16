@@ -1,3 +1,4 @@
+-- Task: List all students and count the courses each is enrolled in, including students with no enrollments.
 SELECT students.first_name, students.last_name,
        COUNT(enrollments.course_id) AS course_count
 FROM students
