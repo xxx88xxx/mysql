@@ -1,3 +1,4 @@
+-- Task: Display students' first and last names, their enrolled courses, and each course's instructor.
 SELECT students.first_name, students.last_name,
        courses.course_name, instructors.name AS instructor_name
 FROM students
