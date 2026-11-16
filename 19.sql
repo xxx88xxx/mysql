@@ -1,3 +1,4 @@
+-- Task: Display students' first and last names, their project names, and the courses they are enrolled in.
 SELECT students.first_name, students.last_name,
        projects.project_name, courses.course_name
 FROM students
